@@ -12,6 +12,6 @@ public static void main(String[] args) {
     System.out.println("My App Idea: " + appIdea);
     System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
     System.out.println("I will make my village proud!");
-  }
+}
 }
     
