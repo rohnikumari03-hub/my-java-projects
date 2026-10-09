@@ -3,7 +3,7 @@ public static void main(String[] args) {
   String name = "Anand";
     String village = "Jinhauli";
     String dream = "Mission 10th Top and Software Engineer";
-    String appIdea = "Gon-school Connect";
+    String appIdea = "Gaon-school Connect";
     
     System.out.println("_ _ _ _ _ Student Details _ _ _ _ _");
     System.out.println("Name: " + name);
