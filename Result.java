@@ -4,4 +4,6 @@ public class Result {
 
      int (marks >= 90) {
   System.out.println("Grade B - Good job!");
-     } else if (marks >= 33)
+     } else if (marks >= 33) {
+  System.out.println("Grade C - Passed")
+    
