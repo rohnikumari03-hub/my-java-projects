@@ -20,17 +20,17 @@ ArrayList<Rectangle> enemies = new ArrayList<>();
        addkeyListener(this);
          }
    public void paintComponent(Graphics g) {
-      super paint Componment(g);
+      super.paint Component(g);
       g.set color(Color.GREEN);
       g.fillRect(playerX. 350, 40, 20): // player
 
          g.set color(Color.YELLOW);
       for(Rectangle b: bullets) g.fillRect(b.x, b.y, 5,(0);
 
-      g.setcolor(Color.RED);
+      g.setColor(Color.RED);
       for(Rectangle e: enimies) g.fillRect(e.x,e.y,e.width,e.height);
 
-      g.setcolor(Color.WHITE);
+      g.setColor(Color.WHITE);
       g.drawString("Score.:"+Score+"/By Anand", 10, 20);
          }
    public void actionperformed (ActionEvent e) {
