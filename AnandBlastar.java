@@ -27,7 +27,14 @@ ArrayList<Rectangle> enemies = new ArrayList<>();
          g.set color(Color.YELLOW);
       for(Rectangle b: bullets) g.fillRect(b.x, b.y, 5,(0);
 
-      g.setcolor(Color.ReD)
+      g.setcolor(Color.RED);
+      for(Rectangle e: enimies) g.fillRect(e.x,e.y,e.width,e.height);
+
+      g.setcolor(Color.WHITE);
+      g.drawString("Score.:"+Score+"/By Anand", 10, 20);
+         }
+   public void actionperformed (ActionEvent e) {
+      for(int i = 0; i < bullets
   
   
   
