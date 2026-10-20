@@ -19,6 +19,15 @@ ArrayList<Rectangle> enemies = new ArrayList<>();
        setFocusable(true);
        addkeyListener(this);
          }
+   public void paintComponement(Graphics g) {
+      super paint Componment(g);
+      g.set color(Color.FREEN);
+      g.fillRect(playerX. 350, 40, 20): // player
+
+         g.set color(Color.YELLOW);
+      for(Rectangle b: bullets) g.fillRect(b.x, b.y, 5,(0);
+
+      g.setcolor(Color.ReD)
   
   
   
