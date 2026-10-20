@@ -12,16 +12,16 @@ ArrayList<Rectangle> enemies = new ArrayList<>();
 
   public AnandBlaster() {
     setBackground(color,Black);
-    Timer = new Time(20, this);
-    timer. start(): 
+    timer = new Timer(20, this);
+    timer.start(); 
       // pehla enemy
       enemies.add( new Rectangle(100; 0, 30, 30));
        setFocusable(true);
        addkeyListener(this);
          }
-   public void paintComponement(Graphics g) {
+   public void paintComponent(Graphics g) {
       super paint Componment(g);
-      g.set color(Color.FREEN);
+      g.set color(Color.GREEN);
       g.fillRect(playerX. 350, 40, 20): // player
 
          g.set color(Color.YELLOW);
