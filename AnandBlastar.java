@@ -35,7 +35,11 @@ ArrayList<Rectangle> enemies = new ArrayList<>();
          }
    public void actionperformed (ActionEvent e) {
       for(int i = 0; i < bullets.size(); i++) {
-         
+         bullets.get(i).y -= 5;
+      if (bullets.get(i).y <0) bullets.remove (i);
+    }
+      
+      
   
   
   
