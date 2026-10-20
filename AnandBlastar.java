@@ -34,7 +34,8 @@ ArrayList<Rectangle> enemies = new ArrayList<>();
       g.drawString("Score.:"+Score+"/By Anand", 10, 20);
          }
    public void actionperformed (ActionEvent e) {
-      for(int i = 0; i < bullets
+      for(int i = 0; i < bullets.size(); i++) {
+         
   
   
   
