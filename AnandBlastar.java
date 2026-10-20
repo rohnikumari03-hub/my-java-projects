@@ -53,10 +53,30 @@ ArrayList<Rectangle> enemies = new ArrayList<>();
             enemies.get(j).y = 0;
           enemies.get(j).x =(int)(Math.random()*350);
                score++;
-         if(score %5 == 0) enemies.add(new Rectangle((int)(Math.random()* 350), 0, 30
-         
-      
-  
-  
-  
-  
+         if(score %5 == 0) enemies.add(new Rectangle((int)(Math.random()* 350), 0, 30, 30));
+               break;
+            }
+         }
+      })
+        repaint();
+         }
+   public void keyPressed(KeyEvent k) {
+      if (k.getKey Code() == KeyEvent.VK_LEFT && playerX > 0 playerX -= 15;
+      if (k.getKey Code() == KeyEvent.VK_RIGHT && playerX < 360) playerX += 15;
+      if (k.getKey Code() == KeyEvent.VK_SPACE) bullets.add(new Rectangle(playerX+18, 340, 5, 10));
+         }
+   public void keyPressed(KeyEvent k) {}
+   public void keyTyped(KeyEvent k) {}
+   
+  public static void main(String[] args {
+ JFrame f = new JFrame("Anand Blastar - RDJ Music Games");
+  f.add(new AnandBlastar());
+f.setSize(400,450);
+f.setDefultCloseOperation(JFrane.EXIT_ON_CLOSE);
+     f.setVisible(true);
+    }
+}
+
+   
+
+             
