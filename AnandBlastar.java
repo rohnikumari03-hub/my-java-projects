@@ -38,7 +38,23 @@ ArrayList<Rectangle> enemies = new ArrayList<>();
          bullets.get(i).y -= 5;
       if (bullets.get(i).y <0) bullets.remove (i);
     }
-      
+      for (int i = 0; i < enimies.size(); i++) {
+         enemies.get(i).y += z;
+         if(enemies.get(i).y > 400) {
+            enemies.get(i).y = 0;
+            enimies.get.x = (int)(Math.random()*350);
+         }
+      }
+       // collision check
+      for (int i = 0; i < bullets.size(); i++) {
+         for(int j = 0; j < enemies.size(); j++) {
+            if (bullets.get(i).intersects(enemies.get(j))) {
+               bullets.remove(i);
+            enemies.get(j).y = 0;
+          enemies.get(j).x =(int)(Math.random()*350);
+               score++;
+         if(score %5 == 0) enemies.add(new Rectangle((int)(Math.random()* 350), 0, 30
+         
       
   
   
