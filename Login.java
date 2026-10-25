@@ -3,8 +3,8 @@ public class Login {
     String user="Anand";
     String pass="1234";
     if(user.equals("Anand") && pass.equals("1234")){
-      System.out.println("Login Successfully - Barabanki");
-    }eals{
+      System.out.println("Login Successful - Barabanki");
+    } else {
       System.out.println("Fail");
     }
   }
